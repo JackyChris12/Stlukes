@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: sticky;
+    top: 10px;
+    background-color: white;
+}
+.header1{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+   
+}
+#info{
+    gap: 10px;
+}
+#socialmedia{
+    margin-left: auto;
+    gap:10px;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+img{
+    width: 60px;
+}
+.navigation{
+    display: flex;
+    margin-left: auto;
+    
+    text-decoration: none;
+    
+}
+.navigation a{
+   text-decoration: none;
+
+}
+.button button{
+    background-color: rgb(149, 27, 153);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.first-section{
+    background-image: url(/hero-bg.jpg);
+    
+}
+.first-section img{
+    position: fixed;
+}
+.blocks{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+ 
+
+}
+.block1{
+    background-color: rgb(3, 67, 206);
+    color: white;
+   
+   
+
+}
+.block2{
+    background-color: white;
+}
+.block3{
+    background-color: white;
+}
+.block4{
+    background-color: white;
+}
+
+.aboutus{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.display{
+    display: flex;
+    display: inline;
+    
+
+}
+.imageabout{
+    width: 100%;
+}
+.imageabout img{
+    width: 500px;
+    
+   
+}
+
+
+.team{
+    display: flex;
+    background-color: rgba(194, 228, 225, 0.555);
+    justify-content: space-between;
+   margin: auto;
+   align-items: center;
+}
+.doctors{
+    background-color: white;
+    width: 150px;
+    align-items: center;
+    padding-top: 40px;
+}
+.departments{
+    background-color: white;
+    width: 150px;
+    align-items: center;
+    padding-top: 40px;
+}
+.researchlabs{
+    background-color: white;
+    width: 150px;
+    align-items: center;
+    padding-top: 40px;
+}
+.awards{
+    background-color: white;
+    width: 150px;
+    align-items: center;
+    padding-left: 10px;
+}
+.head{
+    align-content: center;
+}
+.services{
+    align-items: center;
+    background-color: lightblue;
+}
+.threeblocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
