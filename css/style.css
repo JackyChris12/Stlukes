@@ -4,151 +4,710 @@ body{
     
 }
 header{
-    position: sticky;
-    top: 10px;
+    position: fixed;
     background-color: white;
-}
-.header1{
-    display: flex;
-    margin: 10px;
-    align-items: center;
+    z-index: 1000;
+     width: 100%;
    
 }
-#info{
-    gap: 10px;
-}
-#socialmedia{
-    margin-left: auto;
-    gap:10px;
-}
-.header2{
+.first-childhead{
     display: flex;
-    align-items: center;
-    gap: 40px;
-    margin: auto;
+    width: 90%;
+    margin: 0px auto;
+    flex-direction: row;
+    justify-content: space-between;
+   
+   
+}
+.header1  ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.header1 li{
+    list-style: none;
+}
+.header1 a{
+    text-decoration: none;
+}
+.header-two{
+    display: flex;
+    width: 87%;
+    margin: 0px auto;
+    gap: 30px;
+    justify-content: space-evenly;
     align-items: center;
 }
 .logo{
+    width: 28%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+}
+.logo h1{
+    width: 100%;
+}
+.logo img{
+    width: 8%;
+}
 
-}
-img{
-    width: 60px;
-}
-.navigation{
+.navigation ul{
     display: flex;
-    margin-left: auto;
+    align-items: center;
+     gap: 30px;
     
-    text-decoration: none;
     
+      
 }
-.navigation a{
-   text-decoration: none;
 
+.navigation ul li{
+    list-style: none;
 }
+
+.navigation a{
+    color:rgb(102, 98, 98);
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: rgb(109, 109, 177);
+    transition: all ease-in-out 0.8s;
+    text-decoration: underline;
+}
+
+
+
 .button button{
-    background-color: rgb(149, 27, 153);
+    background-color:rgb(129, 129, 233);
     color: white;
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 30px;
     text-decoration: none;
 }
+.button button:hover{
+    background-color: rgb(90, 4, 90);
+    transition: 1s ease-in-out;
+}
 .first-section{
-    background-image: url(/hero-bg.jpg);
+    width: 100%;
     
 }
+
 .first-section img{
-    position: fixed;
-}
-.blocks{
-    display: flex;
-    gap: 40px;
-    align-items: center;
- 
-
-}
-.block1{
-    background-color: rgb(3, 67, 206);
-    color: white;
-   
-   
-
-}
-.block2{
-    background-color: white;
-}
-.block3{
-    background-color: white;
-}
-.block4{
-    background-color: white;
-}
-
-.aboutus{
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-.display{
-    display: flex;
-    display: inline;
+    width: 100%;
     
+    
+}
+.get-started{
+    width: 85%;
+    margin: 20px auto;
+    position: relative;
+    bottom: 350px;
+    line-height: 30px;
+    
+}
+.first-wrapper{
+    margin-bottom: 50px;
+}
+.first-wrapper p{
+    color: white;
+    font-size: large;
+    
+}
+.first-wrapper button{
+    background-color:rgb(126, 126, 238);
+    padding: 10px;
+    width: 120px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    transition: 1s rgb(40, 56, 199);
 
 }
-.imageabout{
+
+.second-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+   
+}
+.choose{
+    background-color: rgb(58, 58, 196);
+    color:white;
+   padding: 20px;
+   width: 100%;
+   border-radius: 12px;
+   box-shadow: 0px 5px 5px 5px rgb(237, 236, 236);
+
+}
+.same{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 5px rgb(237, 236, 236);
+   line-height: 24px;
+    width: 80%;  
+    text-align: center;  
+ 
+}
+.choose a{
+   padding: 10px;
+   color: white;
+   border-radius: 30px;
+   top: 20px;
+   left: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+   text-align: center;
+   align-items: center;
+   text-decoration: none;
+   background-color: rgb(107, 107, 234);
+
+}
+
+.about h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 36px;
+    color: rgb(69, 69, 188);
+    text-decoration: underline;
+}
+.about p{
+    color: rgb(131, 125, 125);
+
+}
+.about h4{
+    color: black;
+}
+.about h4:hover{
+    color: rgb(78, 78, 211);
+}
+.content-1{
+    display: flex;
+    gap: 50px;
+}
+.about-image{
     width: 100%;
 }
-.imageabout img{
-    width: 500px;
+.about-image img{
+    width: 100%;
+}
+.parent{
+    width: 98%;
+    align-items: center;
     
+}
+.similarchild{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.icon{
+    border: 2px solid cornflowerblue;
+    width: 8%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 100%;
+}
+.icon:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+.about {
+    padding: 6px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: white;
+    bottom: 200px;
+    
+
+}
+.about a:hover{
+    background-color: rgb(51, 51, 173);
+    transition: 1s ease-in-out;
+    text-decoration: none;
+    font-size: 24px;
+}
+.linkmore{
+    position: relative;
+    
+    padding: 20px;
+    background-color: rgb(186, 186, 242);
+    width: 100px;
+}
+.similar-container{
+    display: flex;
+   
+    background-color: rgb(176, 176, 202);
+    padding: 20px;
+    gap: 30px;
+    
+   
+    
+}
+.four-similar{
+    background-color: white;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.ionicons{
+    position: relative;
+    bottom: 30px;
+   left: 100px;
+    color:white;
+    border: 2px solid cornflowerblue;
+    width: 10%;
+   background-color: blue;
+    padding: 15px;
+    border-radius: 100%;
+   
+   
    
 }
 
-
-.team{
+.span span{
+    font-size: 30px;
+}
+.services-sections{
+    background-color: rgb(165, 226, 235);
+    padding: 5%;
+   
+}
+.services h1{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+}
+.three-containers{
     display: flex;
-    background-color: rgba(194, 228, 225, 0.555);
-    justify-content: space-between;
-   margin: auto;
-   align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+   
+  
+}
+
+.three-similar{
+    
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
+.three-similar:hover{
+    background-color: blue;
+    transition: 0.3s ease-in-out;
+    color: white;
+
+}
+.icon-services{
+    background-color: blue;
+    color: white;
+    width: 10%;
+    padding: 20px;
+    box-shadow: 10px 10px 0px 0px rgb(52, 221, 184);
+}
+.icon-services:hover{
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+.see-more button{
+    background-color: rgb(45, 163, 202);
+    width: 10%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.see-more :hover{
+    background-color: rgb(67, 67, 235);
+    transition: 0.2s ease-in-out;
+    
+}
+.Department{
+    text-align: center;
+}
+.Department h1{
+    color: rgb(106, 106, 133);
+    text-decoration: underline;
+}
+.Department p{
+    font-size: 20px;
+}
+.division{
+    display: flex;
+    gap: 40px;
+}
+.division1{
+    line-height: 2.7rem;
+   
+}
+.division1 :hover{
+    color: rgb(20, 20, 199);
+    transition: 0.3s ease-in-out;
+}
+.division1 li{
+    list-style: none;
+   
+}
+.division1 a{
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+}
+
+
+.division2 p{
+    font-size: 22px;
+}
+.nurse-image{
+    width: 100%;
+}
+.nurse-image img{
+    width: 70%;
+}
+.Doctors-section{
+    background-color: rgb(172, 170, 170);
+    padding: 50px;
+    width: 85%;
+    margin: 10px auto;
+   
 }
 .doctors{
+    text-align: center;
+    
+}
+.names{
+    display: flex;
+    gap: 30px;
+}
+.same-name{
+    display: flex;
+    flex-direction: row;
+    
     background-color: white;
-    width: 150px;
+    padding: 20px;
+     
+}
+.her-child{
+    position: relative;
+    right: 60px;
+}
+.Margaret h1{
+    font-size: 20px;
+    color: rgb(28, 28, 82);
+}
+.Oloo h1{
+    font-size: 20px;
+    color: rgb(28, 28, 82);
+
+}
+hr{
+    width: 50%;
+    margin-right:150px ;
+    color: blue;
+
+}
+
+.doc-image{
+    width: 100%;
+}
+.doc-image img{
+    width: 70%;
+    border-radius: 100%;
+    
+   
+}
+.doc-image img:hover{
+    scale: 1.1;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+
+.doc-socialmedia-icons li{
+    list-style: none;
+    position: relative;
+    right:40% ;
+
+}
+.doc-socialmedia-icons ul{
+   display: flex;
+   gap: 10px;
+  
+ 
+    
+}
+.doc-socialmedia-icons a{
+    border: 2px solid rgb(71, 71, 240);
+    border-radius: 100%;
+    padding: 3px;
+   background-color:rgb(71, 71, 240) ;
+   color: white;
+ 
+  
+
+}
+
+.doc-socialmedia-icons a:hover{
+    background-color: blue;
+    transition: 0.2s ease-in-out;
+}
+
+.span1{
+    display: flex;
+    flex-direction: column;
+}
+.span2{
+    display: flex;
+    flex-direction: column;
+}
+.see-more-doctors button{
+  
+    background-color: rgb(107, 107, 240);
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+.appointments{
+    text-align: center;
+}
+.book-appointment h1{
+    text-decoration: underline;
+    color: rgb(106, 106, 133);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+}
+form input{
+    width: 100%;
+    padding: 15px;
+}
+.first{
+    display: flex;
+    gap: 50px;
+}
+.text-area{
+    width: 87%;
+}
+.text-area textarea{
+    width: 100%;
+    padding: 30px;
+    margin: 30px auto;
+}
+.appointment-button button{
+    background-color: rgb(107, 107, 240) ;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.contact-us{
+    width: 100%;
+}
+.contact{
+    text-align: center;
+}
+
+.contact h1{
+    text-decoration: underline;
+    color: rgb(106, 106, 133);
+}
+.contact p{
+    font-size: 20px;
+}
+
+.location{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+.third-last{
+    width: 84%;
+    margin: 10px auto;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.your-details{
+    margin-top: 40px;
+    
+}
+
+.flex{
+   display: flex;
+   gap: 100px;
+   margin-bottom: 20px;
+ 
+}
+.flex input{
+    width: 100%;
+}
+.second-column{
+    width: 100%;
+}
+.your-details textarea{
+    width: 89%;
+    padding: 50px;
+    margin-top: 20px;
+}
+.second-column button{
+    
+    background-color: rgb(107, 107, 224);
+    position: relative;
+    padding: 20px;
+    left: 350px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+
+    width:22%;
+
+}
+
+form input{
+    width: 100%;
+   
+
+}
+.locate{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     align-items: center;
-    padding-top: 40px;
+    line-height: 2rem;
+    
 }
-.departments{
-    background-color: white;
-    width: 150px;
+
+.locate-icon{
+    border: 2px solid rgb(191, 253, 255);
+  padding: 10px;
+  border-radius: 100%;
+  background-color:  rgb(191, 253, 255);
+  color: white;
+  width:12%;
+  
+  text-align: center;
+}
+.locate-icon:hover{
+    background-color: blue;
+    
+    transition:all 0.2s ease-in-out;
+}
+.locate a{
+    text-decoration: none;
+    color: rgb(24, 184, 238);
+}
+.locate span{
+    color:rgb(24, 184, 238) ;
+}
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 90px;
+  background-color: whitesmoke;
+}
+.span1{
+    font-size: 30px;
+}
+.stluke a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(99, 99, 243);
+
+}
+.useful-links li{
+    list-style: none;
+    list-style: symbols(>);
+
+}
+.useful-links a{
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: rgb(29, 28, 28);
+}
+.useful-links a :hover{
+    color:;
+    transition: all ease-in-out 0.3s  rgb(27, 192, 247);
+}
+.our-services li{
+    list-style: none;
+    list-style: symbols(>);
+
+}
+.our-services a{
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: rgb(29, 28, 28);
+}
+.Subscribe{
+    display: flex;
     align-items: center;
-    padding-top: 40px;
 }
-.researchlabs{
-    background-color: white;
-    width: 150px;
-    align-items: center;
-    padding-top: 40px;
+#substance{
+   padding: 8px;
+   border-radius: 30px;
+   width: 100%;
+   border: 1.5px solid blue;
 }
-.awards{
-    background-color: white;
-    width: 150px;
-    align-items: center;
-    padding-left: 10px;
+.sub-link a{
+    text-decoration: none;
+    border: 2px solid blue;
+    background-color:blue ;
+      border-radius: 35px;
+    padding: 15px;
+    color: white;
+       
+   
 }
-.head{
-    align-content: center;
-}
-.services{
-    align-items: center;
-    background-color: lightblue;
-}
-.threeblocks{
+.copyright{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(235, 239, 240);
+ 
+}
+.subchild{
+    display: flex;
+}
+.lastpart ul{
+    display: flex;
+    flex-direction: row;
+   
+    gap: 12px;
+}
+.lastpart li{
+    list-style: none;
+}
+.lastpart a{
+    border: 2px solid blue;
+   padding: 8px;
+   border-radius: 100%;
+   background-color: blue;
+   border: none;
+   color: white;
+}
+.lastpart a:hover{
+    background-color: lightblue;
+    transition: ease-in-out 0.3s;
 }
